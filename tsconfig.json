@@ -7,8 +7,8 @@
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "next",
-    "moduleResolution": "NodeNext", // Change this line from "bundler" to "node"
+    "module": "esnext",
+    "moduleResolution": "Node", // Change this line from "bundler" to "node"
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
