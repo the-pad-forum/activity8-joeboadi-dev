@@ -1,0 +1,35 @@
+
+.header {
+  position: relative;
+  /*padding: 1rem;*/
+  align-items: center;
+  justify-content: center;
+  height: 380px;
+  width: 100%;
+  display: flex;
+  background: url(/app/images/header-background.png) no-repeat center;
+  background-size: cover;
+}
+
+header .overlay{
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 88%;
+  text-align: center;
+}
+
+.dp {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 5px solid #f9f9f9;
+}
+
+.header h1{
+  color: black;/*#f9f9f9*/
+  font-weight: 500;
+  font-size: 29px;
+}
