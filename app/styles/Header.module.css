@@ -32,4 +32,13 @@ header .overlay{
   color: black;/*#f9f9f9*/
   font-weight: 500;
   font-size: 29px;
+  margin-bottom: 10px;
 }
+
+.header p{
+  color: #f9f9f9;
+  font-weight: 500;
+  margin: 15px;
+}
+
+/*Social icons styles*/
