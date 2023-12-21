@@ -5,7 +5,7 @@ const About = () => {
     <section className={styles.about}>
       <h2>About</h2>
       <div>{
-        <video><source src="../media/web-dev.mp4" type="video/mp4"/></video>
+        <video controls><source src="../media/web-dev.mp4" type="video/mp4"/></video>
         }
       </div>
       <p>
