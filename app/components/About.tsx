@@ -5,10 +5,9 @@ import ExplainerVideo from './ExplainerVideo';
 const About = () => {
   return (
     <section className={styles.about}>
-      <h2>About</h2>
+      <h2 className={styles.h2}>About</h2>
       <div>
         <ExplainerVideo />
-          
       </div>
       <div className={styles.aboutText}>
           <p>
