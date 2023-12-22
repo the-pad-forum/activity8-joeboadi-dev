@@ -1,4 +1,25 @@
 .about {
   padding: 2rem;
   background-color: #f3f3f3;
+  width: 95%;
+  margin-right: 1.5rem;
+  min-height: inherit;
+}
+
+.aboutVideo{
+  float: left;
+	width: 50%;
+	margin-right: 1.5rem;
+	min-height: inherit;
+}
+
+.aboutText{
+  word-wrap: break-word;
+  font-size: 20px;
+}
+
+.about::after{
+  content: "";
+	display: table;
+	clear: both;
 }
