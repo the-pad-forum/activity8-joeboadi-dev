@@ -8,6 +8,7 @@
   display: flex;
   background: url('../media/header-background2.jpg') no-repeat center;
   background-size: cover;
+  background-color: #161b22;
 }
 
 header .overlay{

@@ -15,10 +15,10 @@ const Header = () => {
         <h1>Joe Boadi Orion</h1>
         <p>A Beginner Web Developer at The PAD Forum</p>
           {/* Social links go here */}
-          <SocialIcon url="https://www.facebook.com/profile.php?id=100095549220353&mibextid=2JQ9oc" />
-          <SocialIcon url="https://x.com/joeboadiDev_?t=u2KiKAn8-pioz1Q80HYLgA&s=09" />
-          <SocialIcon url="https://www.linkedin.com/in/kwadjo-boadi-mantey-43b670271" />
-          <SocialIcon url="https://discord.com/users/1020877777706176563" />
+          <SocialIcon url="https://www.facebook.com/profile.php?id=100095549220353&mibextid=2JQ9oc" target='_blank' />
+          <SocialIcon url="https://x.com/joeboadiDev_?t=u2KiKAn8-pioz1Q80HYLgA&s=09" target='_blank' />
+          <SocialIcon url="https://www.linkedin.com/in/kwadjo-boadi-mantey-43b670271" target='_blank' />
+          <SocialIcon url="https://discord.com/users/1020877777706176563" target='_blank' />
        </div>
     </header>
   );
