@@ -6,7 +6,7 @@
   height: 380px;
   width: 100%;
   display: flex;
-  background: url(/app/media/header-background2.jpg) no-repeat center;
+  background: url('../media/header-background2.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -28,7 +28,7 @@ header .overlay{
 }
 
 .header h1{
-  color: black;/*#f9f9f9*/
+  color: white;/*#f9f9f9*/
   font-weight: 500;
   font-size: 29px;
   margin-bottom: 10px;
@@ -41,11 +41,3 @@ header .overlay{
 }
 
 /*Social icons styles*/
-
-/*About video*/
-.about-video{
-	float: left;
-	width: 50%;
-	margin-right: 1.5rem;
-	min-height: inherit;
-}
