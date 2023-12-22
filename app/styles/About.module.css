@@ -5,12 +5,12 @@
   width: 95%;
   margin-right: 1.5rem;
   min-height: inherit;
+  font-family: monospace;
 }
-
 
 .about .h2{
   text-align: center;
-  font-size: 20px;
+  font-size: 32px;
 }
 
 .aboutVideo{
@@ -23,6 +23,7 @@
 .aboutText{
   word-wrap: break-word;
   font-size: 20px;
+  font-family: monospace;
 }
 
 .about::after{

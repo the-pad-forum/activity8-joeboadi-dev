@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  /*padding: 1rem;*/
+  padding: 1rem;
   align-items: center;
   justify-content: center;
   height: 380px;
@@ -17,6 +17,9 @@ header .overlay{
   padding: 20px;
   width: 88%;
   text-align: center;
+  border-radius: 8px;
+  align-content: center;
+  justify-content: center;
 }
 
 .dp {
@@ -24,21 +27,29 @@ header .overlay{
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
-  border: 5px solid #f9f9f9;
+  margin-bottom:20px;
+  border: 5px solid #662900;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  text-align:center ;
+  margin: auto;
 }
 
 .header h1{
   color: white;/*#f9f9f9*/
   font-weight: 500;
-  font-size: 29px;
+  font-size: 32px;
   margin-bottom: 10px;
+  font-family: monospace;
 }
 
 .header p{
   color: #f9f9f9;
   font-weight: 500;
   margin: 15px;
+  font-size: 22px;
+  font-family: monospace;
 }
 
 /*Social icons styles*/
